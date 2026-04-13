@@ -1,0 +1,3 @@
+export function StatusBadge({ children, tone = 'default' }) {
+  return <span className={`status-badge ${tone}`}>{children}</span>
+}
